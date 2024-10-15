@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+}
+
+.header-content, .header-content2 {
+    width: 100%;
+    height: 100px;
+    background-color: #fea434;
+}
+
+section {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.section-content {
+    width: 100%;
+    height: 250px;
+    background-color: #daed06;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.article-content, .article-content2, .article-content3 {
+    width: 32%;
+    height: 150px;
+    background-color: #4a89cf;
+}
+
+footer {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-content, .footer-content2, .footer-content3, .footer-content4 {
+    width: 23.5%;
+    height: 150px;
+    background-color: #e2e2e2;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .article-content, .article-content2, .article-content3 {
+        width: 100%;
+        height: 150px;
+        background-color: #4a89cf;
+        margin-top: 10px;
+    }
+
+    footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    width: 100%;
+    }
+
+    .footer-content, .footer-content2, .footer-content3, .footer-content4 {
+        width: 49%;
+        height: 150px;
+        background-color: #e2e2e2;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .article-content, .article-content2, .article-content3{
+        margin-top: 10px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer-content, .footer-content2, .footer-content3, .footer-content4 {
+        width: 100%;
+        height: 150px;
+        background-color: #e2e2e2;
+        margin-top: 20px;
+    }
+}
