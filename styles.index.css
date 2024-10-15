@@ -59,7 +59,7 @@ footer {
     background-color: #e2e2e2;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     header {
         display: flex;
         flex-direction: column;
